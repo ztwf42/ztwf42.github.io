@@ -1,6 +1,6 @@
 baseURL = "https://wanderlust-42.github.io/" # IMPORTANT: Replace with your GitHub Pages URL
 languageCode = "en-us"
-title = "站台晚风" # Replace with your blog's title
+title = "站台晚风。" # Replace with your blog's title
 theme = "PaperMod"
 
 
