@@ -1,0 +1,155 @@
+baseURL = "https://wanderlust-42.github.io/" # IMPORTANT: Replace with your GitHub Pages URL
+languageCode = "en-us"
+title = "站台晚风" # Replace with your blog's title
+theme = "PaperMod"
+
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Syntax Highlighting (Optional but recommended for code blocks)
+pygmentsUseClasses = true # Use classes instead of inline styles for highlighting
+# You might need to generate a style sheet if you use this,
+# or PaperMod might handle it automatically. Check PaperMod docs.
+# Or use Hugo's built-in Chroma:
+[markup.highlight]
+  # anchorLineNos = true
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ''
+  lineNos = false # Set to true to show line numbers
+  style = 'native' # Choose a style, 'native' is often good with PaperMod's dark/light modes
+  # For more styles: hugo gen chromastyles --style=friendly > syntax.css
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# Main menu configuration (like wanderlust.github.io has)
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 40
+
+[params]
+  env = "production" # Set to "development" for development-specific behaviours
+  title = "Hi 👋" # Can be same as site title or different
+  description = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
+  keywords = ["Blog", "Portfolio", "PaperMod"]
+  author = "夏夜"
+  # author: ["Me", "You"] # Multiple authors
+
+  images = ["<link or path of image for opengraph, twitter-cards>"] # For social sharing previews
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto" # Set theme to default (auto | dark | light)
+  disableThemeToggle = false # Show the dark/light mode toggle
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = false # Keep the first post style distinct if desired
+  disableScrollToTop = false
+  comments = true # Enable if you set up Disqus, utterances, etc.
+  commentConfig = "utterances"
+  hidemeta = false # Show post meta (date, reading time)
+  hideSummary = false # Show post summaries on list pages
+  showtoc = false # Show table of contents on posts (can be overridden per post)
+  tocopen = false # Automatically expand table of contents
+ 
+  # Add your Disqus Shortname here:
+  # disqusShortname = "xiaye-1"
+
+  [params.utterances]
+    repo = "wanderlust-42/wanderlust-42.github.io"
+    issueTerm = "pathname"
+    theme = "preferred-color-scheme" # auto-adapts to light/dark
+
+  [params.profileMode]
+    enabled = false # Set to true to enable profile mode
+    title = "My Awesome Blog" # Appears below avatar
+    subtitle = "This is my subtitle"
+    imageUrl = "<local path or URL to avatar>" # e.g., "images/avatar.png"
+    imageWidth = 120 # Optional
+    imageHeight = 120 # Optional
+    imageTitle = "My Avatar" # Optional
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts" # Or "/archives" or "/"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about"
+
+  # Home page info mode (alternative to profile mode, shows recent posts)
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
+
+  # Social Icons (Add links to your profiles)
+  # Add more icons as needed: email, instagram, facebook, etc. Check PaperMod docs for supported icons.
+
+  # Analytics (Optional)
+  # googleAnalytics = "UA-XXXXXXXX-X"
+  # plausibleDataDomain = "yourdomain.com" # Optional
+
+  # Cover image settings (if you use them in front matter)
+  [params.cover]
+    hidden = true # Hide cover image in list views
+    hiddenInList = true # Hide cover image in list views
+    hiddenInSingle = true # Hide cover image in single post view
+
+  # Edit Post link (Optional)
+  # editPost =
+  #  URL = "https://github.com/<user>/<repo>/content" # Link to your source repo's content folder
+  #  Text = "Suggest Changes" # edit text
+  #  appendFilePath = true # to append file path to Edit link
+
+  # Enable specific features
+  enableInlineShortcodes = true
+  enableEmoji = true
+
+  # Taxonomies (like tags, categories)
+  [taxonomies]
+   category = "categories"
+   tag = "tags"
+   series = "series"
+
+  # Archive page configuration
+  [outputs]
+    home = ["HTML", "RSS", "JSON"] # JSON feed needed for search
+
+  # Enable search
+  [params.fuseOpts]
+    # Search options (refer to Fuse.js documentation)
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 2
+    keys = ["title", "permalink", "summary", "content"]
+
+[pagination]
+  pagerSize = 10
