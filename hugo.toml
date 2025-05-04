@@ -109,6 +109,14 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
 
   # Social Icons (Add links to your profiles)
   # Add more icons as needed: email, instagram, facebook, etc. Check PaperMod docs for supported icons.
+  [[params.socialIcons]] # <--- Start of the socialIcons list item for Discord
+    name = "Discord"
+    url = "https://discord.gg/bpYfZJ3j" 
+  
+  [[params.socialIcons]] # <--- Add this section for email
+    name = "email"
+    url = "mailto:ztwf42@proton.me" # <--- Replace with your email address
+
 
   # Analytics (Optional)
   # googleAnalytics = "UA-XXXXXXXX-X"
