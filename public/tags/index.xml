@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on 站台晚风。</title>
-    <link>http://localhost:59799/tags/</link>
-    <description>Recent content in Tags on 站台晚风。</description>
+    <title>Tags on 站台晚风</title>
+    <link>https://ztwf42.github.io/tags/</link>
+    <description>Recent content in Tags on 站台晚风</description>
     <image>
-      <title>站台晚风。</title>
-      <url>http://localhost:59799/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:59799/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>站台晚风</title>
+      <url>https://ztwf42.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ztwf42.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 May 2025 15:33:01 -0700</lastBuildDate>
-    <atom:link href="http://localhost:59799/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ztwf42.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日本北陆</title>
-      <link>http://localhost:59799/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</link>
+      <link>https://ztwf42.github.io/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</link>
       <pubDate>Fri, 02 May 2025 15:33:01 -0700</pubDate>
-      <guid>http://localhost:59799/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</guid>
+      <guid>https://ztwf42.github.io/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</guid>
       <description></description>
     </item>
   </channel>
