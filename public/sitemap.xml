@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ztwf42.github.io/posts/</loc>
+    <loc>http://localhost:61077/posts/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>https://ztwf42.github.io/tags/</loc>
+    <loc>http://localhost:61077/tags/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>https://ztwf42.github.io/posts/my-first-post/</loc>
+    <loc>http://localhost:61077/posts/my-first-post/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>https://ztwf42.github.io/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</loc>
+    <loc>http://localhost:61077/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>https://ztwf42.github.io/</loc>
+    <loc>http://localhost:61077/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>https://ztwf42.github.io/about/</loc>
+    <loc>http://localhost:61077/about/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ztwf42.github.io/categories/</loc>
+    <loc>http://localhost:61077/categories/</loc>
   </url><url>
-    <loc>https://ztwf42.github.io/archives/</loc>
+    <loc>http://localhost:61077/archives/</loc>
   </url><url>
-    <loc>https://ztwf42.github.io/search/</loc>
+    <loc>http://localhost:61077/search/</loc>
   </url><url>
-    <loc>https://ztwf42.github.io/series/</loc>
+    <loc>http://localhost:61077/series/</loc>
   </url>
 </urlset>

@@ -1,7 +1,7 @@
 +++
 date = '2025-05-02T15:33:01-07:00'
 draft = false
-title = '北陆行记[1] - 冬日航程'
+title = '北陆行记(1) - 冬日航程'
 tags = ["日本北陆"] # Correct TOML array syntax
 comments = true
 +++
