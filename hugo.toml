@@ -1,4 +1,4 @@
-baseURL = "https://zwft42.github.io/" # IMPORTANT: Replace with your GitHub Pages URL
+baseURL = "https://ztwf42.github.io/" # IMPORTANT: Replace with your GitHub Pages URL
 languageCode = "en-us"
 title = "站台晚风。" # Replace with your blog's title
 theme = "PaperMod"
@@ -27,7 +27,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   disableXML = true
   minifyOutput = true
 
-# Main menu configuration (like zwft42.github.io has)
+# Main menu configuration (like ztwf42.github.io has)
 [[menu.main]]
   identifier = "archives"
   name = "Archives"
@@ -83,7 +83,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   # disqusShortname = "xiaye-1"
 
   [params.utterances]
-    repo = "zwft42/zwft42.github.io"
+    repo = "ztwf42/ztwf42.github.io"
     issueTerm = "pathname"
     theme = "preferred-color-scheme" # auto-adapts to light/dark
 
