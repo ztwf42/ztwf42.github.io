@@ -2,30 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64215/posts/</loc>
+    <loc>http://localhost:56251/posts/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:64215/tags/</loc>
+    <loc>http://localhost:56251/tags/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:64215/posts/my-first-post/</loc>
+    <loc>http://localhost:56251/posts/japan_2025_1/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:64215/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</loc>
+    <loc>http://localhost:56251/posts/japan_2025_2/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:64215/</loc>
+    <loc>http://localhost:56251/tags/%E6%97%A5%E6%9C%AC%E5%8C%97%E9%99%86/</loc>
     <lastmod>2025-05-02T15:33:01-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:64215/about/</loc>
+    <loc>http://localhost:56251/</loc>
+    <lastmod>2025-05-02T15:33:01-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:56251/about/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64215/categories/</loc>
+    <loc>http://localhost:56251/categories/</loc>
   </url><url>
-    <loc>http://localhost:64215/archives/</loc>
+    <loc>http://localhost:56251/archives/</loc>
   </url><url>
-    <loc>http://localhost:64215/search/</loc>
+    <loc>http://localhost:56251/search/</loc>
   </url><url>
-    <loc>http://localhost:64215/series/</loc>
+    <loc>http://localhost:56251/series/</loc>
   </url>
 </urlset>
