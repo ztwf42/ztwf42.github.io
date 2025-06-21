@@ -123,6 +123,12 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   # googleAnalytics = "G-XXXXXXXXXX" # Replace with your Google Analytics 4 ID
   # plausibleDataDomain = "ztwf42.github.io" # Optional
 
+  # Google Analytics and Search Console Configuration
+  [params.analytics]
+    [params.analytics.google]
+      # SiteVerificationTag = "YOUR_VERIFICATION_CODE_HERE" # Add your Google Search Console verification code here
+      # googleAnalytics = "G-XXXXXXXXXX" # Google Analytics 4 ID
+
   # Cover image settings (if you use them in front matter)
   [params.cover]
     hidden = true # Hide cover image in list views
