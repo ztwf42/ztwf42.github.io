@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>旅行 on 站台晚风</title>
+    <link>http://localhost:60172/categories/%E6%97%85%E8%A1%8C/</link>
+    <description>Recent content in 旅行 on 站台晚风</description>
+    <image>
+      <title>站台晚风</title>
+      <url>http://localhost:60172/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:60172/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Jun 2025 14:02:27 -0700</lastBuildDate>
+    <atom:link href="http://localhost:60172/categories/%E6%97%85%E8%A1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japan 2025 - Part 3</title>
+      <link>http://localhost:60172/posts/japan_2025_3/</link>
+      <pubDate>Sat, 21 Jun 2025 14:02:27 -0700</pubDate>
+      <guid>http://localhost:60172/posts/japan_2025_3/</guid>
+      <description>The third part of my Japan 2025 travel series</description>
+    </item>
+  </channel>
+</rss>

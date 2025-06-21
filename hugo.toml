@@ -54,19 +54,20 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
 
 [params]
   env = "production" # Set to "development" for development-specific behaviours
-  title = "Hi 👋" # Can be same as site title or different
+  title = "站台晚风 - 独自旅行随笔" # Can be same as site title or different
   description = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
-  keywords = ["Blog", "Portfolio", "PaperMod"]
+  keywords = ["旅行", "日本", "独自旅行", "随笔", "博客", "北陆", "金泽"]
   author = "夏夜"
   # author: ["Me", "You"] # Multiple authors
 
-  images = ["<link or path of image for opengraph, twitter-cards>"] # For social sharing previews
+  # Fix Open Graph images - use a real image or remove the placeholder
+  # images = ["https://ztwf42.github.io/images/og-image.jpg"] # Replace with actual image path
   DateFormat = "January 2, 2006"
   defaultTheme = "auto" # Set theme to default (auto | dark | light)
   disableThemeToggle = false # Show the dark/light mode toggle
 
   ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true # Enable for better social sharing
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -89,12 +90,12 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
 
   [params.profileMode]
     enabled = false # Set to true to enable profile mode
-    title = "My Awesome Blog" # Appears below avatar
-    subtitle = "This is my subtitle"
+    title = "站台晚风" # Appears below avatar
+    subtitle = "独自旅行随笔"
     imageUrl = "<local path or URL to avatar>" # e.g., "images/avatar.png"
     imageWidth = 120 # Optional
     imageHeight = 120 # Optional
-    imageTitle = "My Avatar" # Optional
+    imageTitle = "站台晚风" # Optional
     [[params.profileMode.buttons]]
       name = "Posts"
       url = "/posts" # Or "/archives" or "/"
@@ -118,9 +119,9 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
     url = "mailto:ztwf42@proton.me" # <--- Replace with your email address
 
 
-  # Analytics (Optional)
-  # googleAnalytics = "UA-XXXXXXXX-X"
-  # plausibleDataDomain = "yourdomain.com" # Optional
+  # Analytics (Optional) - Uncomment and add your Google Analytics ID
+  # googleAnalytics = "G-XXXXXXXXXX" # Replace with your Google Analytics 4 ID
+  # plausibleDataDomain = "ztwf42.github.io" # Optional
 
   # Cover image settings (if you use them in front matter)
   [params.cover]
@@ -130,7 +131,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
 
   # Edit Post link (Optional)
   # editPost =
-  #  URL = "https://github.com/<user>/<repo>/content" # Link to your source repo's content folder
+  #  URL = "https://github.com/ztwf42/ztwf42.github.io/content" # Link to your source repo's content folder
   #  Text = "Suggest Changes" # edit text
   #  appendFilePath = true # to append file path to Edit link
 
