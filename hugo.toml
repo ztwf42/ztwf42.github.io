@@ -132,7 +132,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   # Google Analytics and Search Console Configuration
   [params.analytics]
     [params.analytics.google]
-      # SiteVerificationTag = "YOUR_VERIFICATION_CODE_HERE" # Add your Google Search Console verification code here
+      SiteVerificationTag = "KJsdXDGZXkIDJ9ydi8Y_Skb_huSilDAqciFTu1FPBvc" # Add your Google Search Console verification code here
       # googleAnalytics = "G-XXXXXXXXXX" # Google Analytics 4 ID
 
   # Cover image settings (if you use them in front matter)
