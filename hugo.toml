@@ -125,15 +125,11 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
     url = "mailto:ztwf42@proton.me" # <--- Replace with your email address
 
 
-  # Analytics (Optional) - Uncomment and add your Google Analytics ID
-  # googleAnalytics = "G-XXXXXXXXXX" # Replace with your Google Analytics 4 ID
-  # plausibleDataDomain = "ztwf42.github.io" # Optional
-
   # Google Analytics and Search Console Configuration
   [params.analytics]
     [params.analytics.google]
-      SiteVerificationTag = "KJsdXDGZXkIDJ9ydi8Y_Skb_huSilDAqciFTu1FPBvc" # Add your Google Search Console verification code here
-      # googleAnalytics = "G-XXXXXXXXXX" # Google Analytics 4 ID
+      SiteVerificationTag = "KJsdXDGZXkIDJ9ydi8Y_Skb_huSilDAqciFTu1FPBvc"
+      # googleAnalytics = "G-XXXXXXXXXX" # Add your Google Analytics 4 ID here if you have one
 
   # Cover image settings (if you use them in front matter)
   [params.cover]
