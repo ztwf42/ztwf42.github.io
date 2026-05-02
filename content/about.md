@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-date: 2025-05-02
+date: 2025-05-02T12:00:00-07:00
 draft: false
 layout: "page" # Or "single" - basic page layout
 comments: false
