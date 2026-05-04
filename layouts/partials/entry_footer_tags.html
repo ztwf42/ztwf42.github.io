@@ -1,0 +1,10 @@
+{{- if (default true site.Params.ShowTagsInHomeList) }}
+{{- $tax := .Language.Params.Taxonomies.tag | default "tags" }}
+{{- with (.GetTerms $tax) }}
+<ul class="post-tags entry-list-tags">
+  {{- range . }}
+  <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+  {{- end }}
+</ul>
+{{- end }}
+{{- end }}

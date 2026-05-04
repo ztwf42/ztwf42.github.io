@@ -73,6 +73,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   disableThemeToggle = false # Show the dark/light mode toggle
 
   ShowReadingTime = true
+  ShowTagsInHomeList = true
   ShowShareButtons = true # Enable for better social sharing
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
