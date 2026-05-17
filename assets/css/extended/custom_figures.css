@@ -1,0 +1,15 @@
+.post-content figure {
+    max-width: 70%;
+    margin: 2rem auto;
+}
+.post-content figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* 加一点圆角让图片看起来更精致 */
+}
+.post-content figure figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--secondary);
+    margin-top: 0.5rem;
+}
