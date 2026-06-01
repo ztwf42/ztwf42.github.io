@@ -1,7 +1,72 @@
 baseURL = "https://ztwf42.github.io/" # IMPORTANT: Replace with your GitHub Pages URL
-languageCode = "en-us"
-title = "站台晚风" # Replace with your blog's title
 theme = "PaperMod"
+defaultContentLanguage = "zh"
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    languageCode = "zh-cn"
+    title = "站台晚风"
+    weight = 1
+    [[languages.zh.menu.main]]
+      identifier = "archives"
+      name = "归档"
+      url = "/archives/"
+      weight = 10
+    [[languages.zh.menu.main]]
+      identifier = "search"
+      name = "搜索"
+      url = "/search/"
+      weight = 20
+    [[languages.zh.menu.main]]
+      identifier = "tags"
+      name = "标签"
+      url = "/tags/"
+      weight = 30
+    [[languages.zh.menu.main]]
+      identifier = "about"
+      name = "关于"
+      url = "/about/"
+      weight = 40
+    [languages.zh.params]
+      title = "站台晚风 - 独自旅行随笔"
+      description = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
+      [languages.zh.params.homeInfoParams]
+        Title = "Hi there 👋"
+        Content = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    title = "Platform Night Breeze"
+    weight = 2
+    [[languages.en.menu.main]]
+      identifier = "archives"
+      name = "Archives"
+      url = "/en/archives/"
+      weight = 10
+    [[languages.en.menu.main]]
+      identifier = "search"
+      name = "Search"
+      url = "/en/search/"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = 40
+    [languages.en.params]
+      title = "Platform Night Breeze - Solo Travel Essays"
+      description = "Here you can find my solo travel essays. Perhaps we have crossed paths in some corner of the world."
+      [languages.en.params.homeInfoParams]
+        Title = "Hi there 👋"
+        Content = "Here you can find my solo travel essays. Perhaps we have crossed paths in some corner of the world."
+
 
 
 enableRobotsTXT = true
@@ -33,35 +98,8 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   disableXML = true
   minifyOutput = true
 
-# Main menu configuration (like ztwf42.github.io has)
-[[menu.main]]
-  identifier = "archives"
-  name = "Archives"
-  url = "/archives/"
-  weight = 10
-
-[[menu.main]]
-  identifier = "search"
-  name = "Search"
-  url = "/search/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 30
-
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 40
-
 [params]
   env = "production" # Set to "development" for development-specific behaviours
-  title = "站台晚风 - 独自旅行随笔" # Can be same as site title or different
-  description = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
   keywords = ["旅行", "日本", "独自旅行", "随笔", "博客", "北陆", "金泽"]
   author = "夏夜"
   # author: ["Me", "You"] # Multiple authors
@@ -111,9 +149,6 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
       url = "/about"
 
   # Home page info mode (alternative to profile mode, shows recent posts)
-  [params.homeInfoParams]
-    Title = "Hi there 👋"
-    Content = "在这里你能找到我关于独自旅行的随笔。也许我们曾在世界的某个角落相遇。"
 
   # Social Icons (Add links to your profiles)
   # Add more icons as needed: email, instagram, facebook, etc. Check PaperMod docs for supported icons.
