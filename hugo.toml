@@ -130,7 +130,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
   [params.analytics]
     [params.analytics.google]
       SiteVerificationTag = "KJsdXDGZXkIDJ9ydi8Y_Skb_huSilDAqciFTu1FPBvc"
-      # googleAnalytics = "G-XXXXXXXXXX" # Add your Google Analytics 4 ID here if you have one
+      googleAnalytics = "G-WV4Y7HMS8B"
 
   # Cover image settings (if you use them in front matter)
   [params.cover]
@@ -171,3 +171,7 @@ pygmentsUseClasses = true # Use classes instead of inline styles for highlightin
 
 [pagination]
   pagerSize = 10
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-WV4Y7HMS8B"
